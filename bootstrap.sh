@@ -52,6 +52,15 @@ bash "${SETUPDIR}/brewbundle.sh"
 echo "brew bundleの実行が完了"
 echo
 
+# brew bundle外のcask install実行
+set +e
+brew cask install virtualbox || (read -p "Hit enter after allow kext: " && brew cask install virtualbox)
+set -e
+brew cask install vagrant
+brew cask install vagrant-manager
+echo "brew bundle外のcask install実行が完了"
+echo
+
 # dotfilesの展開
 bash "${SETUPDIR}/dotfiles.sh"
 echo "dotfilesの展開が完了"
