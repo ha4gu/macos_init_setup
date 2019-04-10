@@ -1,0 +1,25 @@
+{
+  "title": "その他",
+  "rules": [
+    {
+      "description": "Shift+SpaceをF13に割り当てる（合わせてmacOS側でF13を入力ソース切り替えに割り当てること）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "spacebar", "modifiers": { "mandatory": [ "shift" ] } },
+          "to": [ { "key_code": "f13" } ]
+        }
+      ]
+    },
+    {
+      "description": "Option+LをCtrl+Command+Q（画面をロック）に割り当てる",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "l", "modifiers": { "mandatory": [ "option" ] } },
+          "to": [ { "key_code": "q", "modifiers": [ "control", "command" ] } ]
+        }
+      ]
+    }
+  ]
+}

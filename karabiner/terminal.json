@@ -1,0 +1,115 @@
+{
+  "title": "ターミナルやiTerm2でのみ有効にしたい設定群",
+  "rules": [
+    {
+      "description": "Terminal.appやiTerm2で、Command-aをControl-aに変換する（tmuxプリフィックス）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "a", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "a", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-bをControl-bに変換する（ページ戻し）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "b", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "b", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-cをControl-cに変換する（キャンセル）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "c", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "c", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-dをControl-dに変換する（ログアウト）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "d", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "d", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-fをControl-fに変換する（ページ送り）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "f", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "f", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-lをControl-lに変換する（画面クリア）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "l", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "l", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-nをControl-nに変換する（履歴進む）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "n", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "n", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-pをControl-pに変換する（履歴戻る）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "p", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "p", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-rをControl-rに変換する（bash履歴）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "r", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "r", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "Terminal.appやiTerm2で、Command-zをControl-zに変換する（中断）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "z", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "z", "modifiers": [ "control" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.apple\\.Terminal$", "^com\\.googlecode\\.iterm2$" ] } ]
+        }
+      ]
+    }
+  ]
+}
