@@ -77,5 +77,13 @@ bash "${SETUPDIR}/completion.sh"
 echo "bash-completionへの追加が完了"
 echo
 
+# anyenvのセットアップ
+bash "${SETUPDIR}/anyenv.sh"
+echo "anyenvのセットアップが完了"
+echo
+
+
+
+
 echo "糸冬"
 echo

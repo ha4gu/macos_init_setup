@@ -23,6 +23,7 @@ brew "imagemagick"
 brew "ffmpeg"
 brew "youtube-dl"
 brew "heroku/brew/heroku"
+brew "anyenv"
 
 mas "Autodesk Pixlr", id: 880663569
 mas "Evernote", id: 406056744
