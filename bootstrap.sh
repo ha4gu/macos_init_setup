@@ -82,8 +82,22 @@ bash "${SETUPDIR}/anyenv.sh"
 echo "anyenvのセットアップが完了"
 echo
 
+# rbenvのセットアップ
+ln -s "${SETUPDIR}/default-gems" "$(rbenv root)/default-gems"
+bash "${SETUPDIR}/rbenv.sh"
+echo "rbenvのセットアップが完了"
 
+# nodenvのセットアップ
+bash "${SETUPDIR}/nodenv.sh"
+echo "nodenvのセットアップが完了"
 
+# pyenvのセットアップ
+bash "${SETUPDIR}/pyenv.sh"
+echo "pyenvのセットアップが完了"
+
+# レポジトリのダウンロード
+bash "${SETUPDIR}/repos.sh"
+echo "レポジトリのダウンロードが完了"
 
 echo "糸冬"
 echo
