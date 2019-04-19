@@ -33,7 +33,6 @@ mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "PopClip", id: 445189367
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
-mas "Skitch", id: 425955336
 mas "The Unarchiver", id: 425424353
 mas "Airmail 3", id: 918858936
 mas "LINE", id: 539883307
@@ -72,6 +71,7 @@ cask 'notion'
 cask 'boostnote'
 cask 'typora'
 cask 'authy'
+cask 'skitch'
 
 # Entertainment
 cask 'station'
