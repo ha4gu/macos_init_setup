@@ -2,6 +2,7 @@
 set -eu
 shopt -s histappend
 export HISTTIMEFORMAT='%F %T '
+export SETUPDIR="${HOME}/src/macos_init_setup"
 
 # sudo
 echo "後続の処理のために一度sudoを実行"
@@ -18,7 +19,6 @@ echo
 # GitHubからmacos_init_setupをclone
 mkdir ~/src
 git clone https://github.com/ha4gu/macos_init_setup.git ~/src/macos_init_setup
-SETUPDIR="${HOME}/src/macos_init_setup"
 echo "macos_init_setupのcloneが完了"
 echo
 
