@@ -1,5 +1,7 @@
 #!/bin/bash
 set -eu
+shopt -s histappend
+export HISTTIMEFORMAT='%F %T '
 
 # sudo
 echo "後続の処理のために一度sudoを実行"
