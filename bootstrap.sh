@@ -99,5 +99,9 @@ echo "pyenvのセットアップが完了"
 bash "${SETUPDIR}/repos.sh"
 echo "レポジトリのダウンロードが完了"
 
+# Mackup
+ln -s "${SETUPDIR}/Mackup.cfg" "~/.mackup.cfg"
+echo "Mackup設定ファイルのリンクが完了"
+
 echo "糸冬"
 echo

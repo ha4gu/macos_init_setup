@@ -69,6 +69,7 @@ cask 'android-file-transfer'
 cask 'duet'
 cask 'clipy'
 cask 'notion'
+cask 'boostnote'
 cask 'authy'
 
 # Entertainment
