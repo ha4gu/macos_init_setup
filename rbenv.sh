@@ -21,4 +21,4 @@ gem update --system
 gem update
 
 rbenv global system
-rdenv rehash
+rbenv rehash
