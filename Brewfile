@@ -70,6 +70,7 @@ cask 'duet'
 cask 'clipy'
 cask 'notion'
 cask 'boostnote'
+cask 'typora'
 cask 'authy'
 
 # Entertainment
