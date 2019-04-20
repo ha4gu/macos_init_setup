@@ -64,14 +64,37 @@ brew cask install vagrant-manager
 echo "brew bundle外のcask install実行が完了"
 echo
 
+# anyenvのセットアップ
+exec $SHELL -l
+bash "${SETUPDIR}/anyenv.sh"
+exec $SHELL -l
+echo "anyenvのセットアップが完了"
+echo
+
+# rbenvのセットアップ
+ln -s "${SETUPDIR}/default-gems" "$(rbenv root)/default-gems"
+bash "${SETUPDIR}/rbenv.sh"
+echo "rbenvのセットアップが完了"
+
+# nodenvのセットアップ
+bash "${SETUPDIR}/nodenv.sh"
+echo "nodenvのセットアップが完了"
+
+# pyenvのセットアップ
+bash "${SETUPDIR}/pyenv.sh"
+echo "pyenvのセットアップが完了"
+
+# レポジトリのダウンロード
+bash "${SETUPDIR}/repos.sh"
+echo "レポジトリのダウンロードが完了"
+
+# Mackup
+ln -s "${SETUPDIR}/Mackup.cfg" "${HOME}/.mackup.cfg"
+echo "Mackup設定ファイルのリンクが完了"
+
 # dotfilesの展開
 bash "${SETUPDIR}/dotfiles.sh"
 echo "dotfilesの展開が完了"
-echo
-
-# ログインシェルの変更
-bash "${SETUPDIR}/loginshell.sh"
-echo "ログインシェルの変更が完了"
 echo
 
 # bash-completionへの追加
@@ -79,5 +102,10 @@ bash "${SETUPDIR}/completion.sh"
 echo "bash-completionへの追加が完了"
 echo
 
-echo "シェルを再起動後、次のスクリプトを実行してください"
+# ログインシェルの変更
+bash "${SETUPDIR}/loginshell.sh"
+echo "ログインシェルの変更が完了"
+echo
+
+echo "糸冬"
 echo
