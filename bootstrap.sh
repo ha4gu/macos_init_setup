@@ -87,5 +87,6 @@ bash "${SETUPDIR}/loginshell.sh"
 echo "ログインシェルの変更が完了"
 echo
 
-echo "糸冬"
+echo 'シェルを起動し直してから以下のコマンドを実行せよ。'
+echo 'bash "${HOME}/src/anyenv1.sh"'
 echo
