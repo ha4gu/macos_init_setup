@@ -12,5 +12,5 @@ mkdir -p $(anyenv root)/plugins
 git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
 
 echo 'シェルを起動し直してから以下のコマンドを実行せよ。'
-echo 'bash "${HOME}/src/anyenv2.sh"'
+echo 'bash "${HOME}/src/macos_init_setup/anyenv2.sh"'
 echo

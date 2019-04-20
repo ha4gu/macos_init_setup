@@ -88,5 +88,5 @@ echo "ログインシェルの変更が完了"
 echo
 
 echo 'シェルを起動し直してから以下のコマンドを実行せよ。'
-echo 'bash "${HOME}/src/anyenv1.sh"'
+echo 'bash "${HOME}/src/macos_init_setup/anyenv1.sh"'
 echo
