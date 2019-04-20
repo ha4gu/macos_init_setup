@@ -4,6 +4,7 @@ export SETUPDIR="${HOME}/src/macos_init_setup"
 
 # anyenvのセットアップ
 bash "${SETUPDIR}/anyenv.sh"
+exec $SHELL -l
 echo "anyenvのセットアップが完了"
 echo
 
