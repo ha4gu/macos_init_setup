@@ -38,10 +38,18 @@ ln -s "${SETUPDIR}/karabiner" ~/.config/karabiner/assets/complex_modifications
 echo "Karabiner-Elementsのjson配備が完了"
 echo
 
+# Mackup
+ln -s "${SETUPDIR}/Mackup.cfg" "${HOME}/.mackup.cfg"
+echo "Mackup設定ファイルのリンクが完了"
+
 # 各種ターミナルから実行する設定群
 bash "${SETUPDIR}/variousconf.sh"
 echo "各種設定コマンドの実行が完了"
 echo
+
+# レポジトリのダウンロード
+bash "${SETUPDIR}/repos.sh"
+echo "レポジトリのダウンロードが完了"
 
 # Homebrewのインストール
 bash "${SETUPDIR}/homebrew.sh"
@@ -83,14 +91,6 @@ echo "nodenvのセットアップが完了"
 # pyenvのセットアップ
 bash "${SETUPDIR}/pyenv.sh"
 echo "pyenvのセットアップが完了"
-
-# レポジトリのダウンロード
-bash "${SETUPDIR}/repos.sh"
-echo "レポジトリのダウンロードが完了"
-
-# Mackup
-ln -s "${SETUPDIR}/Mackup.cfg" "${HOME}/.mackup.cfg"
-echo "Mackup設定ファイルのリンクが完了"
 
 # dotfilesの展開
 bash "${SETUPDIR}/dotfiles.sh"
