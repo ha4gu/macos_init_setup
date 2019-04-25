@@ -38,10 +38,6 @@ ln -s "${SETUPDIR}/karabiner" ~/.config/karabiner/assets/complex_modifications
 echo "Karabiner-Elementsのjson配備が完了"
 echo
 
-# Mackup
-ln -s "${SETUPDIR}/Mackup.cfg" "${HOME}/.mackup.cfg"
-echo "Mackup設定ファイルのリンクが完了"
-
 # 各種ターミナルから実行する設定群
 bash "${SETUPDIR}/variousconf.sh"
 echo "各種設定コマンドの実行が完了"
