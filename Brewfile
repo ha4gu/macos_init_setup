@@ -24,7 +24,7 @@ brew "ffmpeg"
 brew "youtube-dl"
 brew "heroku/brew/heroku"
 brew "anyenv"
-brew "postgresql@10"
+brew "postgresql"
 
 mas "Autodesk Pixlr", id: 880663569
 mas "Evernote", id: 406056744
