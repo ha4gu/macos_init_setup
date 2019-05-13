@@ -1,0 +1,27 @@
+{
+  "title": "RubyMineでのみ有効にしたい設定群",
+  "rules": [
+    {
+      "description": "RubyMineで、caps lockの位置のキーとshiftキー、Tabキーで前のタブへ移動する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "tab", "modifiers": { "mandatory": [ "command", "shift" ] } },
+          "to": [ { "key_code": "open_bracket", "modifiers": [ "command", "shift" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.jetbrains\\.rubymine$" ] } ]
+        }
+      ]
+    },
+    {
+      "description": "RubyMineで、caps lockの位置のキーとTabキーで次のタブへ移動する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": { "key_code": "tab", "modifiers": { "mandatory": [ "command" ] } },
+          "to": [ { "key_code": "close_bracket", "modifiers": [ "command", "shift" ] } ],
+          "conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": [ "^com\\.jetbrains\\.rubymine$" ] } ]
+        }
+      ]
+    }
+  ]
+}
