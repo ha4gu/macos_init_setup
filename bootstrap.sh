@@ -5,8 +5,9 @@ export HISTTIMEFORMAT='%F %T '
 export SETUPDIR="${HOME}/src/macos_init_setup"
 
 # sudo
-echo "後続の処理のために一度sudoを実行"
-sudo echo "start"
+echo "後続の処理のために一度sudoを実行します"
+sudo echo "後続の処理のためにssh-addを実行します"
+ssh-add
 echo
 
 # Command Line Toolsのインストール
