@@ -44,48 +44,48 @@ mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 
 # Web Browser
-cask 'google-chrome'
-cask 'vivaldi'
-cask 'firefox'
-cask 'firefox-developer-edition'
+cask "google-chrome"
+cask "vivaldi"
+cask "firefox"
+cask "firefox-developer-edition"
 
 # Input
-cask 'karabiner-elements'
-cask 'google-japanese-ime'
+cask "karabiner-elements"
+cask "google-japanese-ime"
 
 # Utility
-cask 'appcleaner'
-cask 'bitwarden'
-cask 'dropbox'
-cask 'alfred'
-cask 'mi'
-cask 'tunnelblick'
-cask 'adobe-acrobat-reader'
-cask 'coconutbattery'
-cask 'forklift'
-cask 'keka'
-cask 'skim'
-cask 'android-file-transfer'
-cask 'duet'
-cask 'clipy'
-cask 'notion'
-cask 'boostnote'
-cask 'typora'
-cask 'authy'
-cask 'skitch'
+cask "appcleaner"
+cask "bitwarden"
+cask "dropbox"
+cask "alfred"
+cask "mi"
+cask "tunnelblick"
+cask "adobe-acrobat-reader"
+cask "coconutbattery"
+cask "forklift"
+cask "keka"
+cask "skim"
+cask "android-file-transfer"
+cask "duet"
+cask "clipy"
+cask "notion"
+cask "boostnote"
+cask "typora"
+cask "authy"
+cask "skitch"
 
 # Entertainment
-cask 'station'
-cask 'kindle'
-cask 'vlc'
-cask 'steam'
+cask "station"
+cask "kindle"
+cask "vlc"
+cask "steam"
 
 # Development
-cask 'iterm2'
-cask 'cyberduck'
-cask 'docker'
-cask 'visual-studio-code'
-cask 'db-browser-for-sqlite'
-cask 'java'
-cask 'dbeaver-community'
-cask 'figma'
+cask "iterm2"
+cask "cyberduck"
+cask "docker"
+cask "visual-studio-code"
+cask "db-browser-for-sqlite"
+cask "java"
+cask "dbeaver-community"
+cask "figma"
