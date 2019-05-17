@@ -6,7 +6,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -58,3 +59,6 @@ tags
 !.vscode/extensions.json
 
 
+### Others
+
+.ruby-version
