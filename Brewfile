@@ -25,6 +25,8 @@ brew "youtube-dl"
 brew "heroku/brew/heroku"
 brew "anyenv"
 brew "postgresql"
+brew "htop"
+brew "colordiff"
 
 mas "Autodesk Pixlr", id: 880663569
 mas "Evernote", id: 406056744
