@@ -3,3 +3,4 @@ debase
 rubocop
 solargraph
 rails
+pg
