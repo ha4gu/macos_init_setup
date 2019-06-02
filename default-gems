@@ -4,3 +4,4 @@ rubocop
 solargraph
 rails
 pg
+webpacker
