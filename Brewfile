@@ -27,7 +27,8 @@ brew "anyenv"
 brew "postgresql"
 brew "htop"
 brew "colordiff"
-brew "yarn-comletion"
+brew "yarn-completion"
+brew "circleci"
 
 mas "Autodesk Pixlr", id: 880663569
 mas "Evernote", id: 406056744
