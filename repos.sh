@@ -9,4 +9,4 @@ git clone https://github.com/ha4gu/dispocha.git ~/src/dispocha
 # from Bitbucket
 git clone git@bitbucket.org:ha4gu/paiza.git ~/src/paiza
 git clone git@bitbucket.org:ha4gu/www.git ~/src/ha4gu.com/www
-git clone git@bitbucket.org:ha4gu/diary.git ~/src/ha4gu.com/diary
+git clone git@bitbucket.org:ha4gu/blog.git ~/src/ha4gu.com/blog
