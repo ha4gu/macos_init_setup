@@ -79,6 +79,7 @@ cask "typora"
 cask "authy"
 cask "skitch"
 cask "keycast"
+cask "slack"
 
 # Entertainment
 cask "station"
