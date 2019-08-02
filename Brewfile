@@ -30,6 +30,7 @@ brew "colordiff"
 brew "yarn-completion"
 brew "circleci"
 brew "terraform"
+brew "awscli"
 
 mas "Autodesk Pixlr", id: 880663569
 mas "Evernote", id: 406056744
