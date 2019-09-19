@@ -1,8 +1,13 @@
-ruby-debug-ide
 debase
-rubocop
-solargraph
-rails
+erb_lint
 pg
+rails
+reek
+rubocop
+rubocop-performance
+rubocop-rails
+rubocop-rspec
+ruby-debug-ide
+solargraph
 sqlite3
 webpacker
