@@ -48,6 +48,7 @@ mas "Microsoft Word", id: 462054704
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "GIPHY CAPTURE", id: 668208984
+mas "Trello", id: 1278508951
 
 # Web Browser
 cask "google-chrome"
