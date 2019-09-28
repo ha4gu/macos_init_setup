@@ -37,7 +37,6 @@ mas "Evernote", id: 406056744
 mas "Paste Plain Text", id: 1407015686
 mas "BetterSnapTool", id: 417375580
 mas "Microsoft Remote Desktop 10", id: 1295203466
-mas "PopClip", id: 445189367
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "The Unarchiver", id: 425424353
