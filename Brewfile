@@ -89,6 +89,7 @@ cask "station"
 cask "kindle"
 cask "vlc"
 cask "steam"
+cask "yacreader"
 
 # Development
 cask "iterm2"
