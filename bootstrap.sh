@@ -12,7 +12,7 @@ echo
 
 # Command Line Toolsのインストール
 xcode-select --install
-read -p "Hit enter after finishing installation of Command Line Tools: "
+read -p "Hit enter after finishing installation of command line developer tools: "
 # 完全自動化参考: https://apple.stackexchange.com/questions/107307/how-can-i-install-the-command-line-tools-completely-from-the-command-line
 echo "Command Line Toolsのインストールが完了"
 echo
