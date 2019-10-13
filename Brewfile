@@ -64,7 +64,6 @@ cask "google-japanese-ime"
 # Utility
 cask "appcleaner"
 cask "bitwarden"
-cask "dropbox"
 cask "alfred"
 cask "mi"
 cask "tunnelblick"
