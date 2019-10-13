@@ -64,8 +64,6 @@ set +e
 brew cask install virtualbox || (read -p "Hit enter after allow kext: " && brew cask install virtualbox)
 set -e
 brew cask install virtualbox-extension-pack
-brew cask install vagrant
-brew cask install vagrant-manager
 echo "brew bundle外のcask install実行が完了"
 echo
 
