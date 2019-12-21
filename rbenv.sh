@@ -3,7 +3,7 @@
 
 git clone https://github.com/rbenv/rbenv-default-gems.git $(rbenv root)/plugins/rbenv-default-gems
 
-RUBY_CONFIGURE_OPTS="--with-readline-dir=$(brew --prefix readline) --with-openssl-dir=$(brew --prefix openssl)" rbenv install 2.3.3
+rbenv install 2.3.3
 rbenv install 2.5.7
 rbenv install 2.6.5
 

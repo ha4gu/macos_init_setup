@@ -24,13 +24,14 @@ brew "ffmpeg"
 brew "youtube-dl"
 brew "heroku/brew/heroku"
 brew "anyenv"
-brew "postgresql"
+brew "postgresql@9.6"
 brew "htop"
 brew "colordiff"
 brew "yarn-completion"
 brew "circleci"
 brew "terraform"
 brew "awscli"
+brew "aquasecurity/trivy/trivy"
 
 mas "Autodesk Pixlr", id: 880663569
 mas "Evernote", id: 406056744
@@ -81,6 +82,7 @@ cask "authy"
 cask "skitch"
 cask "keycast"
 cask "slack"
+cask "scroll-reverser"
 
 # Entertainment
 cask "station"

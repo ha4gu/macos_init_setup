@@ -1,7 +1,5 @@
 #!/bin/bash
 set -eu
-shopt -s histappend
-export HISTTIMEFORMAT='%F %T '
 export SETUPDIR="${HOME}/src/macos_init_setup"
 
 # sudo
@@ -13,14 +11,13 @@ echo
 # Command Line Toolsのインストール
 xcode-select --install
 read -p "Hit enter after finishing installation of command line developer tools: "
-# 完全自動化参考: https://apple.stackexchange.com/questions/107307/how-can-i-install-the-command-line-tools-completely-from-the-command-line
 echo "Command Line Toolsのインストールが完了"
 echo
 
 # GitHubからmacos_init_setupをclone
 mkdir ~/src
 git clone https://github.com/ha4gu/macos_init_setup.git ~/src/macos_init_setup
-echo "macos_init_setupのcloneが完了"
+echo "セットアップ用レポジトリのcloneが完了"
 echo
 
 # 必須ディレクトリの作成

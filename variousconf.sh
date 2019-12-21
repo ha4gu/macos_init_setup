@@ -5,7 +5,7 @@
 defaults write com.apple.finder AppleShowAllFiles -boolean true
 
 # SMBで.DS_Storeを作成させない
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -boolean true
 
 # SMBでパケット署名による暗号化の無効化
 cat << EOF > /tmp/nsmb.conf
