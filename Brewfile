@@ -7,6 +7,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/cask-versions"
 tap "z80oolong/tmux"
+tap "aquasecurity/trivy"
 
 brew "mas"
 brew "openssl"
