@@ -28,3 +28,6 @@ gem update
 
 rbenv global system
 rbenv rehash
+
+cd ~/src/
+rbenv local 2.6.5
