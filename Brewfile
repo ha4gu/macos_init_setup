@@ -84,6 +84,7 @@ cask "skitch"
 cask "keycast"
 cask "slack"
 cask "scroll-reverser"
+cask "avira-antivirus"
 
 # Entertainment
 cask "station"
