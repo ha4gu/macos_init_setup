@@ -1,6 +1,5 @@
 debase
 erb_lint
-pg
 rails
 reek
 rubocop
