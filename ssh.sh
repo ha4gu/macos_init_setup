@@ -3,7 +3,7 @@
 
 chmod 400 ~/.ssh/id_rsa
 chmod 444 ~/.ssh/id_rsa.pub
-git clone git@bitbucket.org:ha4gu/ssh.git ~/ssh
+git clone git@github.com:ha4gu/ssh.git ~/ssh
 mv ~/.ssh/* ~/ssh/.
 rmdir ~/.ssh
 mv ~/ssh ~/.ssh
