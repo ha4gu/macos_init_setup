@@ -30,7 +30,6 @@ brew "htop"
 brew "colordiff"
 brew "yarn-completion"
 brew "circleci"
-brew "terraform"
 brew "awscli"
 brew "aquasecurity/trivy/trivy"
 
