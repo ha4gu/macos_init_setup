@@ -84,6 +84,12 @@ bash "${SETUPDIR}/git-secrets.sh"
 echo "git-secretsの設定が完了"
 echo
 
+# rbenvのセットアップ
+mkdir -p $(rbenv root)
+ln -s "${SETUPDIR}/default-gems" "$(rbenv root)/default-gems"
+bash "${SETUPDIR}/rbenv.sh"
+echo "rbenvのセットアップが完了"
+
 # nodenvのセットアップ
 bash "${SETUPDIR}/nodenv.sh"
 echo "nodenvのセットアップが完了"

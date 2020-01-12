@@ -5,7 +5,6 @@ set -eu
 export SETUPDIR="${HOME}/src/macos_init_setup"
 
 anyenv install --init
-anyenv install rbenv
 mkdir -p $(anyenv root)/plugins
 git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
 
