@@ -84,6 +84,10 @@ bash "${SETUPDIR}/git-secrets.sh"
 echo "git-secretsの設定が完了"
 echo
 
+# nodenvのセットアップ
+bash "${SETUPDIR}/nodenv.sh"
+echo "nodenvのセットアップが完了"
+
 # pyenvのセットアップ
 bash "${SETUPDIR}/pyenv.sh"
 echo "pyenvのセットアップが完了"

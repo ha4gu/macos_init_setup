@@ -9,9 +9,5 @@ ln -s "${SETUPDIR}/default-gems" "$(rbenv root)/default-gems"
 bash "${SETUPDIR}/rbenv.sh"
 echo "rbenvのセットアップが完了"
 
-# nodenvのセットアップ
-bash "${SETUPDIR}/nodenv.sh"
-echo "nodenvのセットアップが完了"
-
 echo "すべてのセットアップ処理が完了"
 echo
