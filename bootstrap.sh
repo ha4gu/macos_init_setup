@@ -84,6 +84,10 @@ bash "${SETUPDIR}/git-secrets.sh"
 echo "git-secretsの設定が完了"
 echo
 
+# pyenvのセットアップ
+bash "${SETUPDIR}/pyenv.sh"
+echo "pyenvのセットアップが完了"
+
 # tfenvのセットアップ
 bash "${SETUPDIR}/tfenv.sh"
 echo "tfenvのセットアップが完了"
