@@ -17,9 +17,5 @@ echo "nodenvのセットアップが完了"
 bash "${SETUPDIR}/pyenv.sh"
 echo "pyenvのセットアップが完了"
 
-# tfenvのセットアップ
-bash "${SETUPDIR}/tfenv.sh"
-echo "tfenvのセットアップが完了"
-
 echo "すべてのセットアップ処理が完了"
 echo

@@ -84,6 +84,10 @@ bash "${SETUPDIR}/git-secrets.sh"
 echo "git-secretsの設定が完了"
 echo
 
+# tfenvのセットアップ
+bash "${SETUPDIR}/tfenv.sh"
+echo "tfenvのセットアップが完了"
+
 echo 'シェルを起動し直してから以下のコマンドを実行せよ。'
 echo 'bash "${HOME}/src/macos_init_setup/anyenv1.sh"'
 echo
