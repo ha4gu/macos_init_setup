@@ -5,7 +5,7 @@ git clone https://github.com/rbenv/rbenv-default-gems.git $(rbenv root)/plugins/
 
 rbenv install 2.3.3 # for AtCoder
 rbenv install 2.6.3 # for paiza
-rbenv install 2.6.5
+rbenv install 2.6.6
 
 rbenv global 2.3.3
 gem update --system
@@ -19,7 +19,7 @@ gem update --system
 gem install fileutils --default
 gem update
 
-rbenv global 2.6.5
+rbenv global 2.6.6
 gem update --system
 gem install fileutils --default
 gem install pg -- --with-pg-config=/usr/local/opt/postgresql@9.6/bin/pg_config
@@ -29,4 +29,4 @@ rbenv global system
 rbenv rehash
 
 cd ~/src/
-rbenv local 2.6.5
+rbenv local 2.6.6
