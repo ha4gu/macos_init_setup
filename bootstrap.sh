@@ -98,6 +98,10 @@ echo "nodenvのセットアップが完了"
 bash "${SETUPDIR}/pyenv.sh"
 echo "pyenvのセットアップが完了"
 
+# goenvのセットアップ
+bash "${SETUPDIR}/goenv.sh"
+echo "goenvのセットアップが完了"
+
 # tfenvのセットアップ
 bash "${SETUPDIR}/tfenv.sh"
 echo "tfenvのセットアップが完了"
