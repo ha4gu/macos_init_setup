@@ -4,8 +4,8 @@
 git clone https://github.com/pine/nodenv-yarn-install.git "$(nodenv root)/plugins/nodenv-yarn-install"
 
 nodenv install 10.14.2
-nodenv install 12.14.0
-nodenv global 12.14.0
+nodenv install 12.16.3
+nodenv global  12.16.3
 nodenv rehash
 npm install -g npm
 npm install -g firebase-tools
