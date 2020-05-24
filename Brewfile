@@ -37,6 +37,7 @@ brew "htop"
 brew "colordiff"
 brew "yarn-completion"
 brew "circleci"
+brew "graphviz"
 brew "awscli"
 brew "aquasecurity/trivy/trivy"
 
