@@ -7,6 +7,6 @@ rubocop-performance
 rubocop-rails
 rubocop-rspec
 ruby-debug-ide
-solargraph
 sqlite3
+standard
 webpacker
