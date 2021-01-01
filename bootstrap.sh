@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eu
-export SETUPDIR="${HOME}/src/macos_init_setup"
+export SETUPDIR="${HOME}/src/private/various/macos_init_setup"
 
 # sudo
 echo "後続の処理のために一度sudoを実行します"
@@ -15,8 +15,8 @@ echo "Command Line Toolsのインストールが完了"
 echo
 
 # GitHubからmacos_init_setupをclone
-mkdir ~/src
-git clone https://github.com/ha4gu/macos_init_setup.git ~/src/macos_init_setup
+mkdir -p ~/src/private/various
+git clone https://github.com/ha4gu/macos_init_setup.git "${SETUPDIR}"
 echo "セットアップ用レポジトリのcloneが完了"
 echo
 
