@@ -3,8 +3,8 @@
 
 git clone https://github.com/pine/nodenv-yarn-install.git "$(nodenv root)/plugins/nodenv-yarn-install"
 
-nodenv install 12.18.0
-nodenv global  12.18.0
+nodenv install 12.20.0
+nodenv global  12.20.0
 nodenv rehash
 npm install -g npm firebase-tools gatsby-cli
 nodenv rehash
