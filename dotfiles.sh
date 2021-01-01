@@ -18,4 +18,4 @@ git clone https://github.com/andsens/homeshick.git ~/.homesick/repos/homeshick
 ~/.homesick/repos/homeshick/bin/homeshick --force clone ha4gu/dotfiles
 touch ~/.bashrc.d/private.sh
 ln -s ~/.vimrc.client ~/.vimrc
-ln -s ~/.tmux.conf.d/ubuntu.conf ~/.tmux.conf
+ln -s ~/.tmux.conf.d/mac.conf ~/.tmux.conf
