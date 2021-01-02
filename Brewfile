@@ -72,7 +72,6 @@ cask "clipy"
 cask "authy"
 cask "slack"
 cask "scroll-reverser"
-cask "avira-antivirus"
 
 # Entertainment
 cask "kindle"
