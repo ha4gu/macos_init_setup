@@ -35,14 +35,11 @@ brew "circleci"
 brew "graphviz"
 
 mas "Autodesk Pixlr", id: 880663569
-mas "Evernote", id: 406056744
 mas "Paste Plain Text", id: 1407015686
 mas "BetterSnapTool", id: 417375580
 mas "Microsoft Remote Desktop 10", id: 1295203466
 mas "Pixelmator", id: 407963104
 mas "The Unarchiver", id: 425424353
-mas "LINE", id: 539883307
-mas "OneDrive", id: 823766827
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Word", id: 462054704
 mas "Microsoft Excel", id: 462058435
@@ -64,8 +61,6 @@ cask "alfred"
 cask "mi"
 cask "tunnelblick"
 cask "adobe-acrobat-reader"
-cask "forklift"
-cask "keka"
 cask "skim"
 cask "android-file-transfer"
 cask "clipy"
@@ -76,8 +71,6 @@ cask "scroll-reverser"
 # Entertainment
 cask "kindle"
 cask "vlc"
-cask "steam"
-cask "yacreader"
 
 # Development
 cask "iterm2"

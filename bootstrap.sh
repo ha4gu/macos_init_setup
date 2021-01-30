@@ -78,7 +78,6 @@ echo
 
 # rbenvのセットアップ
 mkdir -p $(rbenv root)
-ln -s "${SETUPDIR}/default-gems" "$(rbenv root)/default-gems"
 bash "${SETUPDIR}/rbenv.sh"
 echo "rbenvのセットアップが完了"
 
