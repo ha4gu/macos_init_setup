@@ -44,6 +44,7 @@ mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Word", id: 462054704
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
+mas "Battery Indicator", id: 1206020918
 
 # Web Browser
 cask "google-chrome"
