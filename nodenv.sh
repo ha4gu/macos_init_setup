@@ -7,4 +7,4 @@ nodenv install 12.20.1
 nodenv install 14.15.4
 nodenv global  12.20.1
 nodenv rehash
-npm completion > /usr/local/etc/bash_completion.d/npm
+~/.nodenv/shims/npm completion > /usr/local/etc/bash_completion.d/npm
