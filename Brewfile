@@ -70,6 +70,7 @@ cask "slack"
 cask "scroll-reverser"
 cask "thunderbird"
 cask "inkdrop"
+cask "zoom"
 
 # Entertainment
 cask "kindle"
