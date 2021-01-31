@@ -67,6 +67,7 @@ cask "clipy"
 cask "authy"
 cask "slack"
 cask "scroll-reverser"
+cask "thunderbird"
 
 # Entertainment
 cask "kindle"
