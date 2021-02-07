@@ -19,3 +19,12 @@ git clone https://github.com/andsens/homeshick.git ~/.homesick/repos/homeshick
 touch ~/.bashrc.d/private.sh
 ln -s ~/.vimrc.client ~/.vimrc
 ln -s ~/.tmux.conf.d/mac.conf ~/.tmux.conf
+
+# .gitconfig
+cat << EOF > ~/.gitconfig
+[include]
+    path = .gitconfig_private
+
+# [user]
+#    email =
+EOF
