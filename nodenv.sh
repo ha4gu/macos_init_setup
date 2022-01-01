@@ -3,8 +3,7 @@
 
 git clone https://github.com/pine/nodenv-yarn-install.git "$(nodenv root)/plugins/nodenv-yarn-install"
 
-nodenv install 12.20.1
-nodenv install 14.15.4
-nodenv global  12.20.1
+nodenv install 14.18.2
+nodenv global 14.18.2
 nodenv rehash
 ~/.nodenv/shims/npm completion > /usr/local/etc/bash_completion.d/npm
