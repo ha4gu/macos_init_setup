@@ -81,10 +81,6 @@ echo "rbenvのセットアップが完了"
 bash "${SETUPDIR}/nodenv.sh"
 echo "nodenvのセットアップが完了"
 
-# pyenvのセットアップ
-bash "${SETUPDIR}/pyenv.sh"
-echo "pyenvのセットアップが完了"
-
 # tfenvのセットアップ
 bash "${SETUPDIR}/tfenv.sh"
 echo "tfenvのセットアップが完了"
