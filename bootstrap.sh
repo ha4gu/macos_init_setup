@@ -72,11 +72,6 @@ bash "${SETUPDIR}/loginshell.sh"
 echo "ログインシェルの変更が完了"
 echo
 
-# git-secretsの設定
-bash "${SETUPDIR}/git-secrets.sh"
-echo "git-secretsの設定が完了"
-echo
-
 # rbenvのセットアップ
 mkdir -p $(rbenv root)
 bash "${SETUPDIR}/rbenv.sh"
