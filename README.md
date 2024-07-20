@@ -16,6 +16,14 @@ macOSの再セットアップを自動で行うための自分用スクリプト
 
 ## 使用方法
 
+とりあえず取得してくるなら
+
+```shell
+mkdir -p ~/src/private && cd ~/src/private && git clone git@github.com:ha4gu/macos_init_setup.git
+```
+
+直接実行するなら
+
 ```shell
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ha4gu/macos_init_setup/master/bootstrap.sh)"
 ```
