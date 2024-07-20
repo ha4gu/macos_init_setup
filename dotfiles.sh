@@ -17,13 +17,3 @@ git clone https://github.com/andsens/homeshick.git ~/.homesick/repos/homeshick
 # dotfilesを展開する
 ~/.homesick/repos/homeshick/bin/homeshick --force clone ha4gu/dotfiles
 touch ~/.bashrc.d/private.sh
-ln -s ~/.vimrc.client ~/.vimrc
-
-# .gitconfig
-cat << EOF > ~/.gitconfig
-[include]
-    path = .gitconfig_private
-
-# [user]
-#    email =
-EOF
