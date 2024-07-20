@@ -1,4 +1,4 @@
 #!/bin/bash
 # tfenvのセットアップを実行する
 
-tfenv install 1.1.0
+tfenv install 1.8.5

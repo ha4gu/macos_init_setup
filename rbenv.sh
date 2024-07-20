@@ -1,33 +1,29 @@
 #!/bin/bash
 # rbenvのセットアップを実行する
 
-rbenv install 2.6.9
-rbenv install 2.7.5
-rbenv install 3.0.3
-rbenv install 3.1.0
+git clone https://github.com/rbenv/rbenv-default-gems.git "$(rbenv root)/plugins/rbenv-default-gems"
 
-rbenv global 2.6.9
-gem update --system
-gem install pg -- --with-pg-config=/usr/local/opt/postgresql@13/bin/pg_config
-gem update
+rbenv install 3.1.6
+rbenv install 3.2.4
+rbenv install 3.3.4
 
-rbenv global 2.7.5
+rbenv global 3.1.6
 gem update --system
-gem install pg -- --with-pg-config=/usr/local/opt/postgresql@13/bin/pg_config
-gem update
+gem update bundler
+gem install pg -- --with-pg-config="$(brew --prefix)/opt/postgresql@16/bin/pg_config"
 
-rbenv global 3.0.3
+rbenv global 3.2.4
 gem update --system
-gem install pg -- --with-pg-config=/usr/local/opt/postgresql@13/bin/pg_config
-gem update
+gem update bundler
+gem install pg -- --with-pg-config="$(brew --prefix)/opt/postgresql@16/bin/pg_config"
 
-rbenv global 3.1.0
+rbenv global 3.3.4
 gem update --system
-gem install pg -- --with-pg-config=/usr/local/opt/postgresql@13/bin/pg_config
-gem update
+gem update bundler
+gem install pg -- --with-pg-config="$(brew --prefix)/opt/postgresql@16/bin/pg_config"
 
 rbenv global system
-rbenv rehash
-
-cd ~/src/
-rbenv local 3.1.0
+bundle config frozen true
+bundle config jobs $(sysctl -n hw.ncpu)
+bundle config retry 2
+bundle config build.pg --with-pg-config=$(brew --prefix)/opt/postgresql@16/bin/pg_config
