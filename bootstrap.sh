@@ -30,12 +30,6 @@ bash "${SETUPDIR}/ssh.sh"
 echo "sshの処理が完了"
 echo
 
-# Karabiner-Elementsのjson配備
-mkdir -p ~/.config/karabiner/assets/
-ln -s "${SETUPDIR}/karabiner" ~/.config/karabiner/assets/complex_modifications
-echo "Karabiner-Elementsのjson配備が完了"
-echo
-
 # 各種ターミナルから実行する設定群
 bash "${SETUPDIR}/variousconf.sh"
 echo "各種設定コマンドの実行が完了"
@@ -64,6 +58,13 @@ echo
 # bash-completionへの追加
 bash "${SETUPDIR}/completion.sh"
 echo "bash-completionへの追加が完了"
+echo
+
+# Karabiner-Elementsの設定ファイル配置
+## シンボリックリンクを張っても、設定を変更すると実ファイルに置き換わってしまうため諦めてコピー。
+## MacBookとMac Miniでコピー元ファイルが変わるが、とりあえず暫定的にMacBookの場合の記述にしてある。
+cp ~/.config/karabiner/karabiner.json_macbook ~/.config/karabiner/karabiner.json
+echo "Karabiner-Elementsの設定ファイル配置が完了"
 echo
 
 # ログインシェルの変更
