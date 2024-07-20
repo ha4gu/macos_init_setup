@@ -55,11 +55,6 @@ bash "${SETUPDIR}/dotfiles.sh"
 echo "dotfilesの展開が完了"
 echo
 
-# bash-completionへの追加
-bash "${SETUPDIR}/completion.sh"
-echo "bash-completionへの追加が完了"
-echo
-
 # Karabiner-Elementsの設定ファイル配置
 ## シンボリックリンクを張っても、設定を変更すると実ファイルに置き換わってしまうため諦めてコピー。
 ## MacBookとMac Miniでコピー元ファイルが変わるが、とりあえず暫定的にMacBookの場合の記述にしてある。
