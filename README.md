@@ -18,6 +18,7 @@ macOSの再セットアップを自動で行うための自分用スクリプト
 - App Storeへのログイン
 - iCloud Driveからフォントをインストール
     - `cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/初期セットアップ用/fonts/`
+    - `ls -la`
     - `ls -la ~/Library/Fonts/`
     - `find . -name "*.[ot]t[cf]" -exec cp {} ~/Library/Fonts/. \;`
 - Ed25519形式の鍵ペア生成とGitHubへの登録（プライベートレポジトリへアクセスできるようにしておく）
@@ -25,6 +26,8 @@ macOSの再セットアップを自動で行うための自分用スクリプト
     - `cat ~/.ssh/id_ed25519.pub`
     - メモアプリに貼り付けて同期
     - 別端末から https://github.com/settings/keys にアクセスして登録
+- コマンドラインデベロッパツールのインストール
+    - `xcode-select --install`
 
 ## 使用方法
 
